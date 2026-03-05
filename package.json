@@ -1,7 +1,19 @@
 {
-  "name": "voice-store-api",
+  "name": "voicestore-backend",
+  "version": "1.0.0",
+  "description": "Backend API for VoiceStore built with Supabase",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
   "dependencies": {
-    "@supabase/supabase-js": "^2.39.0": "^11.11.0",
-    "axios": "^1.6.2"
+    "@supabase/supabase-js": "^2.39.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "node-fetch": "^2.7.0"
+  },
+  "engines": {
+    "node": ">=14.x"
   }
 }
